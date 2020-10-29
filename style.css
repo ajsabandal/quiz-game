@@ -1,0 +1,55 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+.container-left{
+    background-color: white;
+    width: 50vw;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 60px;
+}
+.card{
+    background-color: #ffd3b6;
+    width: 500px;
+    height: 500px;
+    border-radius: 5%;
+    margin: auto;
+    color: black;
+    max-width: 100%;
+    box-shadow: 0 0 10px 5px #ffaaa5;
+    padding: 30px;
+
+}
+.button-grid{
+    display: grid;
+    gap: 10px;
+    margin: 20px 0;
+}
+.button {
+    background-color:  #bdeaee;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.button:hover{
+    border-color: crimsons;
+}
+
+.container-right-correct{
+    background-color: #1EA896;
+}
+
+.container-right-wrong{
+    background-color: #FF715B;
+}
