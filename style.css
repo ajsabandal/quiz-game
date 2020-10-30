@@ -29,12 +29,12 @@ body {
     max-width: 100%;
     box-shadow: 0 0 10px 5px #ffaaa5;
     padding: 30px;
-
 }
 .button-grid{
     display: grid;
     gap: 10px;
     margin: 20px 0;
+    outline: none;
 }
 .button {
     background-color:  #bdeaee;
@@ -43,13 +43,13 @@ body {
 }
 
 .button:hover{
-    border-color: crimsons;
+    border-style: none;
 }
 
-.container-right-correct{
-    background-color: #1EA896;
+.right-correct{
+    background-color:green;
 }
 
-.container-right-wrong{
+.right-wrong{
     background-color: #FF715B;
 }
